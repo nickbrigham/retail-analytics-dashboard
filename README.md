@@ -130,7 +130,7 @@ I'm a product leader with 8 years of experience building data products in regula
 
 Currently exploring opportunities in AI/ML product management, healthcare technology, and B2B SaaS.
 
-[LinkedIn](https://linkedin.com/in/your-profile) • [Email](mailto:your@email.com)
+[LinkedIn](https://www.linkedin.com/in/nick-brigham-64707a290/) • [Email](nickbrigham08@gmail.com)
 
 ---
 
