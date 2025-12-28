@@ -4,9 +4,8 @@ A real-time business intelligence dashboard built to transform raw POS transacti
 
 ## Live Demo
 
-[View Demo](https://your-username.github.io/retail-analytics-dashboard)
+[View Demo](https://nickbrigham.github.io/retail-analytics-dashboard/)
 
-![Dashboard Screenshot](screenshot.png)
 
 ## The Problem
 
