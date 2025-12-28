@@ -1,0 +1,157 @@
+{
+  "metadata": {
+    "period": "November 2024",
+    "generated_at": "2024-11-30T12:00:00.000Z",
+    "total_transactions": 4247,
+    "stores": ["Demo Store A", "Demo Store B"],
+    "note": "Sample data for demonstration purposes"
+  },
+  "kpi_cards": {
+    "revenue": { "value": 187432.50, "mom_pct": 8.3, "yoy_pct": 12.1 },
+    "profit": { "value": 74892.20, "mom_pct": 6.7, "yoy_pct": 9.4 },
+    "transactions": { "value": 4247, "mom_pct": 5.2, "yoy_pct": 7.8 },
+    "avg_ticket": { "value": 44.13, "mom_pct": 2.9, "yoy_pct": 4.0 },
+    "margin": { "value": 39.9, "mom_delta": -0.6, "yoy_delta": -1.1 }
+  },
+  "action_items": [
+    { "type": "warning", "title": "12 Products Below 40% Margin", "text": "Review pricing needed.", "action": "Check Products tab" },
+    { "type": "info", "title": "Store B Outperforming", "text": "Avg ticket 8% higher than Store A", "action": "Analyze best practices" }
+  ],
+  "store_comparison": [
+    { "store": "Demo Store A", "short_name": "Store A", "transactions": 2341, "revenue": 98234.50, "avg_ticket": 41.96, "avg_ticket_mom_pct": 2.1, "avg_ticket_yoy_pct": 3.2, "txns_per_day": 78.0, "txns_per_day_mom_pct": 4.5, "txns_per_day_yoy_pct": 6.1 },
+    { "store": "Demo Store B", "short_name": "Store B", "transactions": 1906, "revenue": 89198.00, "avg_ticket": 46.80, "avg_ticket_mom_pct": 3.8, "avg_ticket_yoy_pct": 5.1, "txns_per_day": 63.5, "txns_per_day_mom_pct": 5.9, "txns_per_day_yoy_pct": 9.7 }
+  ],
+  "daily_revenue": [
+    { "date": "2024-11-01", "revenue": 5842.30 },
+    { "date": "2024-11-02", "revenue": 7231.50 },
+    { "date": "2024-11-03", "revenue": 6124.80 },
+    { "date": "2024-11-04", "revenue": 5567.20 },
+    { "date": "2024-11-05", "revenue": 5234.10 },
+    { "date": "2024-11-06", "revenue": 5891.40 },
+    { "date": "2024-11-07", "revenue": 6432.70 },
+    { "date": "2024-11-08", "revenue": 7012.30 },
+    { "date": "2024-11-09", "revenue": 7845.60 },
+    { "date": "2024-11-10", "revenue": 6234.90 },
+    { "date": "2024-11-11", "revenue": 5123.40 },
+    { "date": "2024-11-12", "revenue": 5678.20 },
+    { "date": "2024-11-13", "revenue": 6012.50 },
+    { "date": "2024-11-14", "revenue": 6543.80 },
+    { "date": "2024-11-15", "revenue": 7234.10 },
+    { "date": "2024-11-16", "revenue": 8012.40 },
+    { "date": "2024-11-17", "revenue": 6789.30 },
+    { "date": "2024-11-18", "revenue": 5456.70 },
+    { "date": "2024-11-19", "revenue": 5234.80 },
+    { "date": "2024-11-20", "revenue": 5891.20 },
+    { "date": "2024-11-21", "revenue": 6234.50 },
+    { "date": "2024-11-22", "revenue": 7123.80 },
+    { "date": "2024-11-23", "revenue": 8456.90 },
+    { "date": "2024-11-24", "revenue": 7012.30 },
+    { "date": "2024-11-25", "revenue": 5678.40 },
+    { "date": "2024-11-26", "revenue": 5432.10 },
+    { "date": "2024-11-27", "revenue": 6789.50 },
+    { "date": "2024-11-28", "revenue": 9234.60 },
+    { "date": "2024-11-29", "revenue": 8567.20 },
+    { "date": "2024-11-30", "revenue": 7012.80 }
+  ],
+  "top_performers": [
+    { "name": "Premium Product Alpha", "category": "Category A", "brand": "Brand X", "store": "Demo Store A", "revenue": 12453.20, "profit": 5478.50, "units_sold": 234, "margin_pct": 44.0 },
+    { "name": "Elite Item Beta", "category": "Category B", "brand": "Brand Y", "store": "Demo Store B", "revenue": 9876.50, "profit": 4234.80, "units_sold": 189, "margin_pct": 42.9 },
+    { "name": "Standard Product Gamma", "category": "Category A", "brand": "Brand Z", "store": "Demo Store A", "revenue": 8234.10, "profit": 3456.20, "units_sold": 312, "margin_pct": 42.0 },
+    { "name": "Value Item Delta", "category": "Category C", "brand": "Brand X", "store": "Demo Store B", "revenue": 7654.30, "profit": 3123.40, "units_sold": 287, "margin_pct": 40.8 },
+    { "name": "Specialty Product Epsilon", "category": "Category B", "brand": "Brand Y", "store": "Demo Store A", "revenue": 6543.20, "profit": 2678.90, "units_sold": 145, "margin_pct": 41.0 }
+  ],
+  "margin_alerts": [
+    { "name": "Budget Item Zeta", "store": "Demo Store A", "revenue": 3456.70, "margin_pct": 32.1, "price_increase_pct": 12, "status": "critical" },
+    { "name": "Clearance Product Eta", "store": "Demo Store B", "revenue": 2345.80, "margin_pct": 34.5, "price_increase_pct": 8, "status": "critical" },
+    { "name": "Promotional Item Theta", "store": "Demo Store A", "revenue": 4567.90, "margin_pct": 36.2, "price_increase_pct": 6, "status": "review" },
+    { "name": "Seasonal Product Iota", "store": "Demo Store B", "revenue": 1987.40, "margin_pct": 37.8, "price_increase_pct": 4, "status": "review" },
+    { "name": "Legacy Item Kappa", "store": "Demo Store A", "revenue": 876.50, "margin_pct": 38.9, "price_increase_pct": 2, "status": "review" }
+  ],
+  "reorder_recs": [
+    { "product": "Premium Product Alpha", "category": "Category A", "daily_velocity": 7.8, "reorder_qty": 65, "urgency": "high" },
+    { "product": "Standard Product Gamma", "category": "Category A", "daily_velocity": 10.4, "reorder_qty": 87, "urgency": "high" },
+    { "product": "Value Item Delta", "category": "Category C", "daily_velocity": 9.6, "reorder_qty": 81, "urgency": "high" },
+    { "product": "Elite Item Beta", "category": "Category B", "daily_velocity": 6.3, "reorder_qty": 53, "urgency": "high" },
+    { "product": "Everyday Essential Lambda", "category": "Category D", "daily_velocity": 4.2, "reorder_qty": 35, "urgency": "medium" }
+  ],
+  "category_mix": [
+    { "category": "Category A", "revenue": 67234.50, "profit": 28456.80, "units": 1234, "margin_pct": 42.3 },
+    { "category": "Category B", "revenue": 45678.90, "profit": 18234.50, "units": 876, "margin_pct": 39.9 },
+    { "category": "Category C", "revenue": 38976.40, "profit": 15234.60, "units": 1098, "margin_pct": 39.1 },
+    { "category": "Category D", "revenue": 23456.70, "profit": 8765.40, "units": 654, "margin_pct": 37.4 },
+    { "category": "Category E", "revenue": 12086.00, "profit": 4200.90, "units": 385, "margin_pct": 34.8 }
+  ],
+  "budtender_scorecard": [
+    { "name": "Alex Johnson", "store": "Demo Store A", "short_store": "Store A", "revenue": 28456.70, "transactions": 567, "avg_ticket": 50.19, "vs_avg_ticket": 13.7, "items_per_txn": 2.8, "context_flags": [] },
+    { "name": "Sam Williams", "store": "Demo Store B", "short_store": "Store B", "revenue": 26789.30, "transactions": 534, "avg_ticket": 50.17, "vs_avg_ticket": 13.6, "items_per_txn": 2.6, "context_flags": ["Works 28% Fridays (Promo Day)"] },
+    { "name": "Jordan Davis", "store": "Demo Store A", "short_store": "Store A", "revenue": 24567.80, "transactions": 598, "avg_ticket": 41.08, "vs_avg_ticket": -6.9, "items_per_txn": 2.1, "context_flags": [] },
+    { "name": "Casey Miller", "store": "Demo Store B", "short_store": "Store B", "revenue": 23456.90, "transactions": 512, "avg_ticket": 45.81, "vs_avg_ticket": 3.8, "items_per_txn": 2.4, "context_flags": [] },
+    { "name": "Taylor Brown", "store": "Demo Store A", "short_store": "Store A", "revenue": 21234.50, "transactions": 478, "avg_ticket": 44.42, "vs_avg_ticket": 0.7, "items_per_txn": 2.3, "context_flags": ["Works 32% Sundays (Promo Day)"] }
+  ],
+  "staffing_recs": [
+    { "day": "Saturday", "type": "peak", "index": 1.34, "recommendation": "Peak day. 34% above avg." },
+    { "day": "Friday", "type": "peak", "index": 1.22, "recommendation": "Peak day. 22% above avg." },
+    { "day": "Tuesday", "type": "slow", "index": 0.81, "recommendation": "Slow day. 19% below avg." }
+  ],
+  "retention_summary": {
+    "total_customers": 2847,
+    "returning_customers": 1423,
+    "retention_rate": 49.9,
+    "avg_days_since_visit": 23
+  },
+  "segment_health": [
+    { "segment": "VIP", "count": 312, "total_revenue": 67234.50 },
+    { "segment": "Regular", "count": 876, "total_revenue": 54321.80 },
+    { "segment": "Occasional", "count": 543, "total_revenue": 32456.70 },
+    { "segment": "One-time", "count": 1116, "total_revenue": 33419.50 }
+  ],
+  "churn_summary": {
+    "high": 234,
+    "medium": 456,
+    "low": 2157,
+    "total_at_risk": 18234.50
+  },
+  "churn_predictions": [
+    { "customer": "Customer A", "risk_level": "HIGH", "churn_probability": 78, "total_spend": 1234.50, "last_visit": "9/15/2024", "segment": "VIP", "revenue_at_risk": 962.91, "preferred_products": [] },
+    { "customer": "Customer B", "risk_level": "HIGH", "churn_probability": 72, "total_spend": 987.30, "last_visit": "9/22/2024", "segment": "Regular", "revenue_at_risk": 710.86, "preferred_products": [] },
+    { "customer": "Customer C", "risk_level": "HIGH", "churn_probability": 68, "total_spend": 876.20, "last_visit": "9/28/2024", "segment": "Regular", "revenue_at_risk": 595.82, "preferred_products": [] },
+    { "customer": "Customer D", "risk_level": "MEDIUM", "churn_probability": 52, "total_spend": 654.80, "last_visit": "10/5/2024", "segment": "Occasional", "revenue_at_risk": 340.50, "preferred_products": [] },
+    { "customer": "Customer E", "risk_level": "MEDIUM", "churn_probability": 48, "total_spend": 543.20, "last_visit": "10/12/2024", "segment": "Occasional", "revenue_at_risk": 260.74, "preferred_products": [] }
+  ],
+  "cross_category_pairs": [
+    { "product_a": "Premium Product Alpha", "category_a": "Category A", "product_b": "Elite Item Beta", "category_b": "Category B", "times_together": 89, "confidence_pct": 34.2, "lift": 2.8 },
+    { "product_a": "Standard Product Gamma", "category_a": "Category A", "product_b": "Value Item Delta", "category_b": "Category C", "times_together": 76, "confidence_pct": 28.9, "lift": 2.4 },
+    { "product_a": "Elite Item Beta", "category_a": "Category B", "product_b": "Everyday Essential Lambda", "category_b": "Category D", "times_together": 62, "confidence_pct": 24.1, "lift": 2.1 }
+  ],
+  "cohorts": {
+    "2022": { "cohort_size": 876, "yearly": { "2022": { "customers": 876, "total_spend": 45678.90, "avg_ltv": 52.15 }, "2023": { "customers": 543, "total_spend": 34567.80, "avg_ltv": 63.66 }, "2024": { "customers": 312, "total_spend": 23456.70, "avg_ltv": 75.18 } } },
+    "2023": { "cohort_size": 1234, "yearly": { "2023": { "customers": 1234, "total_spend": 67890.50, "avg_ltv": 55.02 }, "2024": { "customers": 789, "total_spend": 52345.60, "avg_ltv": 66.34 } } },
+    "2024": { "cohort_size": 1567, "yearly": { "2024": { "customers": 1567, "total_spend": 78234.50, "avg_ltv": 49.93 } } }
+  },
+  "seasonal_indices": { "1": 0.82, "2": 0.85, "3": 0.91, "4": 0.98, "5": 1.02, "6": 1.08, "7": 1.12, "8": 1.06, "9": 0.97, "10": 1.04, "11": 1.08, "12": 1.18 },
+  "seasonal_alerts": [
+    { "type": "warning", "title": "January Slowdown", "text": "18% below avg.", "action": "Reduce inventory" },
+    { "type": "positive", "title": "December Peak", "text": "18% above avg.", "action": "Stock up" }
+  ],
+  "next_4_weeks": [
+    { "week": 1, "days": [{ "date": "12/1", "day_name": "Mon", "forecast": 5234 }, { "date": "12/2", "day_name": "Tue", "forecast": 4876 }, { "date": "12/3", "day_name": "Wed", "forecast": 5123 }, { "date": "12/4", "day_name": "Thu", "forecast": 5456 }, { "date": "12/5", "day_name": "Fri", "forecast": 6789 }, { "date": "12/6", "day_name": "Sat", "forecast": 7234 }, { "date": "12/7", "day_name": "Sun", "forecast": 5678 }], "total": 40390 },
+    { "week": 2, "days": [{ "date": "12/8", "day_name": "Mon", "forecast": 5345 }, { "date": "12/9", "day_name": "Tue", "forecast": 4987 }, { "date": "12/10", "day_name": "Wed", "forecast": 5234 }, { "date": "12/11", "day_name": "Thu", "forecast": 5567 }, { "date": "12/12", "day_name": "Fri", "forecast": 6890 }, { "date": "12/13", "day_name": "Sat", "forecast": 7345 }, { "date": "12/14", "day_name": "Sun", "forecast": 5789 }], "total": 41157 },
+    { "week": 3, "days": [{ "date": "12/15", "day_name": "Mon", "forecast": 5456 }, { "date": "12/16", "day_name": "Tue", "forecast": 5098 }, { "date": "12/17", "day_name": "Wed", "forecast": 5345 }, { "date": "12/18", "day_name": "Thu", "forecast": 5678 }, { "date": "12/19", "day_name": "Fri", "forecast": 7012 }, { "date": "12/20", "day_name": "Sat", "forecast": 7567 }, { "date": "12/21", "day_name": "Sun", "forecast": 5890 }], "total": 42046 },
+    { "week": 4, "days": [{ "date": "12/22", "day_name": "Mon", "forecast": 5678 }, { "date": "12/23", "day_name": "Tue", "forecast": 5234 }, { "date": "12/24", "day_name": "Wed", "forecast": 6789 }, { "date": "12/25", "day_name": "Thu", "forecast": 3456 }, { "date": "12/26", "day_name": "Fri", "forecast": 7234 }, { "date": "12/27", "day_name": "Sat", "forecast": 7890 }, { "date": "12/28", "day_name": "Sun", "forecast": 6123 }], "total": 42404 }
+  ],
+  "yoy_monthly": [
+    { "month": 1, "month_name": "Jan", "revenue_2023": 142345, "revenue_2024": 156789, "yoy_pct": 10.2 },
+    { "month": 2, "month_name": "Feb", "revenue_2023": 148765, "revenue_2024": 162345, "yoy_pct": 9.1 },
+    { "month": 3, "month_name": "Mar", "revenue_2023": 156234, "revenue_2024": 171234, "yoy_pct": 9.6 },
+    { "month": 4, "month_name": "Apr", "revenue_2023": 162345, "revenue_2024": 178456, "yoy_pct": 9.9 },
+    { "month": 5, "month_name": "May", "revenue_2023": 168456, "revenue_2024": 183567, "yoy_pct": 9.0 },
+    { "month": 6, "month_name": "Jun", "revenue_2023": 174567, "revenue_2024": 189678, "yoy_pct": 8.7 },
+    { "month": 7, "month_name": "Jul", "revenue_2023": 178678, "revenue_2024": 192345, "yoy_pct": 7.6 },
+    { "month": 8, "month_name": "Aug", "revenue_2023": 172345, "revenue_2024": 186789, "yoy_pct": 8.4 },
+    { "month": 9, "month_name": "Sep", "revenue_2023": 165432, "revenue_2024": 179876, "yoy_pct": 8.7 },
+    { "month": 10, "month_name": "Oct", "revenue_2023": 171234, "revenue_2024": 184567, "yoy_pct": 7.8 },
+    { "month": 11, "month_name": "Nov", "revenue_2023": 167234, "revenue_2024": 187432, "yoy_pct": 12.1 },
+    { "month": 12, "month_name": "Dec", "revenue_2023": 189876, "revenue_2024": null, "yoy_pct": null }
+  ],
+  "discount_days": { "Store A": ["Friday: 10% off select items", "Sunday: 20% off Category D"], "Store B": ["Friday: 10% off select items", "Monday: 20% off Category D"] }
+}
